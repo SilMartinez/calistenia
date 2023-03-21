@@ -1,0 +1,23 @@
+.form-control {
+    border: 2px solid #923431B0;
+    background-color: black;
+    -webkit-text-fill-color:black;
+}
+
+.form-check-label {
+    color:#923431B0;
+}
+
+.btn {
+    background-color: #923431B0;
+    border: 3px solid #923431cc;
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120%;
+
+    &:hover {
+    background-color: white;
+    border:3px solid #923431B0;
+    }
+
+}
