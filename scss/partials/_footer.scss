@@ -20,16 +20,20 @@ footer {
         padding-top: 20px;
         text-align: center;
 
-        img {
-            height: 20px;
-            border-radius: 20%;
-            margin-left: 5px;
-            margin-right: 5px;
-
-            &:hover {
-                opacity: 50%;
+        a {
+            img {
+                height: 20px;
+                border-radius: 20%;
+                margin-left: 5px;
+                margin-right: 5px;
+    
+                &:hover {
+                    opacity: 100%;
+                    color:#923431B0;
+                }
             }
         }
+
     }
 
 }

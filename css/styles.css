@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(146, 52, 49, 0.6901960784);
+  background-color: rgb(255, 255, 255);
 }
 body main div h2 {
   text-align: center;
@@ -16,7 +16,7 @@ body main div h2 {
 }
 body .container-fluid {
   padding: 20px;
-  background-color: rgba(146, 52, 49, 0.6901960784);
+  background-color: rgba(75, 72, 72, 0.774);
   margin-bottom: 30px;
   border: 3px solid rgba(146, 52, 49, 0.6901960784);
 }
@@ -127,7 +127,7 @@ body .dropdown-item {
 .card-suc .card-text-ubi {
   text-align: center;
   font-family: "Bebas Neue", cursive;
-  color: white;
+  color: rgb(129, 19, 19);
 }
 
 .form-control {
@@ -148,7 +148,7 @@ body .dropdown-item {
   font-size: 120%;
 }
 .btn:hover {
-  background-color: white;
+  background-color: rgba(146, 52, 49, 0.6901960784);
   border: 3px solid rgba(146, 52, 49, 0.6901960784);
 }
 
@@ -179,7 +179,8 @@ footer section img {
   margin-right: 5px;
 }
 footer section img:hover {
-  opacity: 50%;
+  opacity: 100%;
+  color: rgba(146, 52, 49, 0.6901960784);
 }
 
 /*# sourceMappingURL=styles.css.map */

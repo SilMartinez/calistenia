@@ -1,6 +1,6 @@
+$main-color: #923431B0;
+
 body {
-    background-color: black;
-    
     main {
         div {
             h2 {
@@ -12,27 +12,31 @@ body {
                 }
             }
         } 
-
-    .container-fluid {
-        padding: 20px;
-        background-color: #923431B0;
-        margin-bottom: 30px;
-        border: 3px solid #923431B0;
     
-        .nav-item {
-            margin-left: 80px;
-            margin-bottom:5px;
+    .container {
+        background-color: black;
 
-            .nav-link {
-                font-size:140%;
-                font-family: 'Bebas Neue', cursive;
-                border-bottom:3px solid #923431B0;
-                border-top:3px solid #923431B0;
-            
-                &:hover {
-                    border-bottom: 3px solid black;
-                    border-top: 3px solid black;
-                    -webkit-text-fill-color:white;
+        .container-fluid {
+            padding: 20px;
+            background-color: $main-color;
+            margin-bottom: 30px;
+            border: 3px solid #923431B0;
+        
+            .nav-item {
+                margin-left: 80px;
+                margin-bottom:5px;
+    
+                .nav-link {
+                    font-size:140%;
+                    font-family: 'Bebas Neue', cursive;
+                    border-bottom:3px solid #923431B0;
+                    border-top:3px solid #923431B0;
+                
+                    &:hover {
+                        border-bottom: 3px solid black;
+                        border-top: 3px solid black;
+                        -webkit-text-fill-color:white;
+                    }
                 }
             }
         }
@@ -64,7 +68,6 @@ body {
             text-align: center;
             font-family: 'Bebas Neue', cursive;
         }
-       
 }
 
 
